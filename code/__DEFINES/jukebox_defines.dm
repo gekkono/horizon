@@ -21,3 +21,6 @@
 #define JUKEBOX_AMBIENCE_CLAMP_PER_VOLUME 1
 
 #define BOOMBOX_RANGE_MULTIPLIER 0.6
+
+/// The maximum real volume setting the jukebox can ever be set to, as a float
+#define JUKEBOX_MAXIMUM_USERVOLUME 0.9

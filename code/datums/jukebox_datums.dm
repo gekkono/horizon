@@ -120,6 +120,9 @@
 		distance = get_dist(jukebox_turf, mob_turf)
 
 	var/jukebox_volume = played_track.jukebox ? played_track.jukebox.volume : played_track.boombox.volume
+	// Convert the linear volume control into a logarithmic volume control
+	// While also clamping the range to the maximum user volume
+	jukebox_volume = LOG_AUDIOVOLUME(jukebox_volume * JUKEBOX_MAXIMUM_USERVOLUME)
 	target_volume *= (jukebox_volume / 100)
 	target_volume -= (max(distance - played_track.falloff_distance, 0) ** (1 / JUKEBOX_FALLOFF_EXPONENT)) / ((max(played_track.max_range, distance) - played_track.falloff_distance) ** (1 / JUKEBOX_FALLOFF_EXPONENT)) * target_volume
 
