@@ -130,6 +130,7 @@
 	var/stuttering = 0
 	var/slurring = 0
 	var/cultslurring = 0
+	/// Derpy speech, boolean
 	var/derpspeech = 0
 
 	var/list/implants = null
@@ -182,3 +183,7 @@
 	var/hold_onto_things = TRUE
 	/// Overlay for the typing indicator
 	var/mutable_appearance/typing_indicator_overlay
+	/// Holder for attributes and skills
+	var/datum/attribute_holder/attributes
+	/// Type of the initial attribute sheet to apply. Can be null
+	var/initial_attribute_sheet

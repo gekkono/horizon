@@ -125,5 +125,15 @@
 	mid_sounds = list('sound/lifts/lift_loop/lift_loop.ogg'=1)
 	mid_length = 2 SECONDS
 	end_sound = 'sound/lifts/lift_loop/lift_end.ogg'
-	volume = 40
+	volume = 30
 	falloff_distance = 4
+
+/datum/looping_sound/firealarm
+	mid_sounds = list(
+		'sound/machines/fire_alarm/FireAlarm1.ogg'=1,
+		'sound/machines/fire_alarm/FireAlarm2.ogg'=1,
+		'sound/machines/fire_alarm/FireAlarm3.ogg'=1,
+		'sound/machines/fire_alarm/FireAlarm4.ogg'=1 
+		)
+	mid_length = 2.4 SECONDS
+	volume = 70
