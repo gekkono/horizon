@@ -169,7 +169,8 @@ SUBSYSTEM_DEF(ticker)
 
 			if(!storyteller_vote)
 				storyteller_vote = TRUE
-				SSvote.initiate_vote(STORYTELLER_VOTE, "the gamemode")
+				// TODO: Reenable this when storyteller is better
+				//SSvote.initiate_vote(STORYTELLER_VOTE, "the gamemode")
 
 			if(start_immediately)
 				timeLeft = 0
