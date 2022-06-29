@@ -304,11 +304,11 @@ All the important duct code:
 	if(!(direction in GLOB.cardinals))
 		return
 	if(!(duct_layer & other.duct_layer))
-		to_chat(user, span_warning("The ducts must be on the same layer to connect them!"))
+		to_chat(user, SPAN_WARNING("The ducts must be on the same layer to connect them!"))
 		return
 	var/obj/item/held_item = user.get_active_held_item()
 	if(held_item?.tool_behaviour != TOOL_WRENCH)
-		to_chat(user, span_warning("You need to be holding a wrench in your active hand to do that!"))
+		to_chat(user, SPAN_WARNING("You need to be holding a wrench in your active hand to do that!"))
 		return
 
 	add_connects(direction) //the connect of the other duct is handled in connect_network, but do this here for the parent duct because it's not necessary in normal cases
@@ -356,7 +356,7 @@ All the important duct code:
 	if(istype(target, /obj/machinery/duct))
 		var/obj/machinery/duct/duct = target
 		if(duct.anchored)
-			to_chat(user, span_warning("The duct must be unanchored before it can be picked up."))
+			to_chat(user, SPAN_WARNING("The duct must be unanchored before it can be picked up."))
 			return
 
 		// Turn into a duct stack and then merge to the in-hand stack.

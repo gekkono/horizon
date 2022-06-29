@@ -1109,7 +1109,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 
 /obj/item/construction/plumbing/examine(mob/user)
 	. = ..()
-	. += span_notice("Alt-Click to change layer and duct color.")
+	. += SPAN_NOTICE("Alt-Click to change layer and duct color.")
 
 /obj/item/construction/plumbing/equipped(mob/user, slot, initial)
 	. = ..()
@@ -1230,7 +1230,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 	if(istype(target, /obj/machinery/plumbing))
 		var/obj/machinery/machine_target = target
 		if(machine_target.anchored)
-			to_chat(user, SPAN_WARNING("The [P.name] needs to be unanchored!"))
+			to_chat(user, SPAN_WARNING("The [target.name] needs to be unanchored!"))
 			return
 		if(do_after(user, 20, target = target))
 			machine_target.deconstruct() //Let's not substract matter
@@ -1305,7 +1305,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
  */
 /obj/item/construction/plumbing/proc/mouse_wheeled(mob/source, atom/A, delta_x, delta_y, params)
 	SIGNAL_HANDLER
-	if(source.incapacitated(IGNORE_RESTRAINTS|IGNORE_STASIS))
+	if(source.incapacitated(ignore_restraints|ignore_stasis))
 		return
 	if(delta_y == 0)
 		return
