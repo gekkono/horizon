@@ -1305,7 +1305,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
  */
 /obj/item/construction/plumbing/proc/mouse_wheeled(mob/source, atom/A, delta_x, delta_y, params)
 	SIGNAL_HANDLER
-	if(source.incapacitated(ignore_restraints|ignore_stasis))
+	if(source.incapacitated(ignore_restraints = TRUE, ignore_stasis = TRUE))
 		return
 	if(delta_y == 0)
 		return
