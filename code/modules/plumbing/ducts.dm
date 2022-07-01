@@ -81,7 +81,7 @@ All the important duct code:
 		return connect_duct(plumbable, direction)
 
 	for(var/datum/component/plumbing/plumber as anything in plumbable.GetComponents(/datum/component/plumbing))
-		if(!plumbing)
+		if(!plumber)
 			continue
 		. += connect_plumber(plumber, direction) //so that if one is true, all is true. beautiful.
 
