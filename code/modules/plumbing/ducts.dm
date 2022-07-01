@@ -81,6 +81,8 @@ All the important duct code:
 		return connect_duct(plumbable, direction)
 
 	for(var/datum/component/plumbing/plumber as anything in plumbable.GetComponents(/datum/component/plumbing))
+		if(!plumbing)
+			continue
 		. += connect_plumber(plumber, direction) //so that if one is true, all is true. beautiful.
 
 ///connect to a duct
@@ -128,8 +130,7 @@ All the important duct code:
 ///connect to a plumbing object
 /obj/machinery/duct/proc/connect_plumber(datum/component/plumbing/plumbing, direction)
 	var/opposite_dir = turn(direction, 180)
-	if(!plumbing)
-		return
+
 	if(!(duct_layer & plumbing.ducting_layer))
 		return FALSE
 
