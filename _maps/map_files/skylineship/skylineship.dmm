@@ -192,6 +192,7 @@
 	req_access_txt = "12"
 	},
 /obj/structure/cable,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
 "afA" = (
@@ -379,6 +380,7 @@
 	pixel_y = 2
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai)
 "akx" = (
@@ -805,7 +807,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
 /turf/closed/wall/r_wall,
-/area/security/prison)
+/area/security/execution/transfer)
 "awc" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -1220,6 +1222,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
+"aLH" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
+/turf/closed/wall/r_wall/rust,
+/area/security/execution/transfer)
 "aLI" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -1507,7 +1513,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "aTs" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -1568,6 +1575,13 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/security/checkpoint/customs)
+"aUg" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/hallway/skylineship/underbelly/port)
 "aUH" = (
 /obj/structure/filingcabinet,
 /obj/effect/turf_decal/tile/neutral/full,
@@ -1612,6 +1626,7 @@
 /area/maintenance/skylineship/starboard/deck_4_starboard_maintenance)
 "aWX" = (
 /obj/machinery/airalarm/directional/east,
+/obj/machinery/vending/cigarette,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_5_hallway)
 "aXh" = (
@@ -1625,7 +1640,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "aXj" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -1803,10 +1818,6 @@
 /obj/machinery/holopad,
 /turf/open/floor/iron/smooth,
 /area/cargo/warehouse)
-"bbQ" = (
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
 "bbU" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/directional/north,
@@ -2513,7 +2524,8 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/yellow,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "but" = (
 /obj/machinery/door/airlock/public/glass{
@@ -2538,8 +2550,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/yellow/full,
+/obj/structure/cable,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "bvh" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8;
@@ -2712,7 +2725,7 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/plating,
 /area/commons/fitness)
 "bAa" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -3237,6 +3250,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "bOT" = (
@@ -3480,13 +3494,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"bXT" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
 "bYb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -3556,6 +3563,7 @@
 	pixel_x = 26
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "cat" = (
@@ -3581,7 +3589,7 @@
 /obj/machinery/button/door{
 	id = "bridge blast";
 	name = "Bridge Lockdown Toggle";
-	pixel_x = -13;
+	pixel_x = -8;
 	pixel_y = 8;
 	req_access_txt = "19"
 	},
@@ -3817,6 +3825,10 @@
 /obj/effect/turf_decal/siding/red/corner,
 /turf/open/floor/iron/smooth,
 /area/security/brig)
+"chK" = (
+/obj/machinery/vending/cigarette,
+/turf/open/floor/iron/smooth,
+/area/hallway/skylineship/deck_2_hallway)
 "chZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
@@ -3876,6 +3888,7 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "cld" = (
@@ -3884,11 +3897,11 @@
 	},
 /obj/structure/extinguisher_cabinet/directional/east,
 /obj/machinery/light/directional/east,
-/obj/machinery/suit_storage_unit/engine,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /obj/effect/turf_decal/box,
+/obj/machinery/portable_atmospherics/scrubber/huge,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine)
 "clj" = (
@@ -4326,7 +4339,7 @@
 /obj/structure/bodycontainer/morgue{
 	dir = 8
 	},
-/obj/machinery/light/directional/east,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark,
 /area/service/chapel/main/monastery)
 "cwV" = (
@@ -4476,7 +4489,8 @@
 /obj/machinery/camera/autoname{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "cAB" = (
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
@@ -4564,20 +4578,13 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/engineering/gravity_generator)
 "cCo" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/research,
 /turf/closed/wall/r_wall/rust,
 /area/science/xenobiology)
-"cDZ" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/port/deck_5_port_maintenance)
 "cEd" = (
 /obj/machinery/light/warm/directional/south,
 /obj/effect/turf_decal/siding/purple,
@@ -4950,6 +4957,7 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "cPQ" = (
@@ -5561,7 +5569,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "dfi" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
@@ -5786,7 +5794,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "dns" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -5985,7 +5993,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/turf_decal/tile/yellow/full,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "duq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -6183,6 +6191,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/turf_decal/stripes/full,
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
 /turf/open/floor/iron/smooth,
 /area/engineering/atmospherics_engine)
 "dya" = (
@@ -6580,6 +6589,7 @@
 /obj/structure/disposalpipe/trunk/multiz/down{
 	dir = 1
 	},
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "dKx" = (
@@ -6765,7 +6775,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/security,
 /turf/open/floor/plating,
-/area/security/prison)
+/area/security/execution/transfer)
 "dQf" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -6889,6 +6899,7 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "dUM" = (
@@ -7084,7 +7095,6 @@
 /area/science/genetics)
 "eaE" = (
 /obj/structure/cable,
-/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine)
 "eaO" = (
@@ -7223,7 +7233,8 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/yellow,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "eea" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4{
@@ -7303,11 +7314,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/underbelly/port)
-"efi" = (
-/obj/machinery/airalarm/directional/north,
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/smooth,
-/area/hallway/secondary/exit/departure_lounge)
 "egd" = (
 /obj/effect/turf_decal/arrows/white{
 	dir = 1
@@ -7404,6 +7410,13 @@
 /obj/item/radio/headset/heads/skyline/pilot,
 /turf/open/floor/wood/large,
 /area/command/heads_quarters/skylineship/pilot)
+"ehN" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/dark,
+/area/service/chapel/main/monastery)
 "ehS" = (
 /obj/machinery/rnd/production/protolathe/department/security,
 /obj/effect/turf_decal/tile/red/full,
@@ -7718,6 +7731,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_5_hallway)
+"eqs" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
+/turf/closed/wall/r_wall,
+/area/security/execution/transfer)
 "eqx" = (
 /obj/structure/bed,
 /obj/item/bedsheet/black,
@@ -8087,6 +8104,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/directional/west,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "eAw" = (
@@ -8248,6 +8266,10 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/cargo/warehouse)
+"eDv" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/outer_hull/stripe,
+/turf/closed/wall/r_wall,
+/area/hallway/skylineship/deck_5_hallway)
 "eDE" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/engineering,
 /turf/closed/wall/r_wall,
@@ -8303,7 +8325,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/medical/break_room)
 "eFh" = (
-/obj/structure/cable,
 /obj/structure/chair/office{
 	dir = 4
 	},
@@ -9344,6 +9365,12 @@
 	},
 /turf/open/floor/carpet,
 /area/commons/vacant_room/office)
+"fnn" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/hallway/skylineship/deck_5_hallway)
 "fnx" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -9576,10 +9603,12 @@
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_6_hallway)
 "ftX" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
+/area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
 "ftY" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/south,
@@ -9616,7 +9645,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/light/small/directional/east,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "fwp" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden{
@@ -10157,6 +10187,8 @@
 "fMf" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/light/directional/north,
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
@@ -10614,12 +10646,6 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/service/library)
-"fYG" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
 "fYN" = (
 /obj/machinery/airalarm/directional/north,
 /obj/structure/bed/pod,
@@ -10732,7 +10758,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "gbf" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/cargo,
 /turf/closed/wall,
@@ -10791,7 +10817,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "gcO" = (
 /obj/effect/spawner/lootdrop/grille_or_trash,
 /obj/effect/decal/cleanable/dirt,
@@ -10908,6 +10934,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "ggB" = (
@@ -10999,7 +11026,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/item/radio/intercom/directional/south,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "gjN" = (
 /obj/structure/cable,
@@ -11020,6 +11048,9 @@
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	name = "Oxygen Refill port"
 	},
 /turf/open/floor/iron/smooth,
 /area/engineering/engine_smes)
@@ -11594,7 +11625,6 @@
 /turf/open/floor/plating,
 /area/maintenance/skylineship/starboard/deck_4_starboard_maintenance)
 "gHa" = (
-/obj/structure/cable,
 /obj/machinery/jukebox,
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/glass/reinforced,
@@ -12257,7 +12287,7 @@
 "haH" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/outer_hull,
 /turf/closed/wall/r_wall/rust,
-/area/security/prison)
+/area/security/execution/transfer)
 "haK" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "hopqueue";
@@ -12303,6 +12333,7 @@
 	req_access_txt = "12"
 	},
 /obj/structure/cable,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/maintenance/skylineship/port/deck_5_port_maintenance)
 "hbM" = (
@@ -13297,7 +13328,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "hDS" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -13342,6 +13373,7 @@
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "hEH" = (
@@ -14574,6 +14606,12 @@
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/engineering,
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
+"ilQ" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/hallway/skylineship/deck_5_hallway)
 "ilX" = (
 /obj/machinery/portable_atmospherics/pump,
 /obj/effect/turf_decal/bot,
@@ -15354,7 +15392,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "iGG" = (
 /obj/effect/turf_decal/siding/purple,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -15552,7 +15590,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/plating,
 /area/commons/fitness)
 "iNb" = (
 /obj/effect/turf_decal/tile/blue{
@@ -16511,7 +16549,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "jnD" = (
 /obj/structure/cable,
@@ -17173,7 +17212,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "jEf" = (
 /obj/structure/chair/comfy/shuttle{
@@ -17605,7 +17645,7 @@
 	},
 /obj/effect/turf_decal/tile/yellow/full,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/hallway/skylineship/deck_6_hallway)
 "jPO" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -18184,6 +18224,9 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible{
+	dir = 9
+	},
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine)
 "kja" = (
@@ -18289,6 +18332,11 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
+"klH" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "klJ" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -18435,6 +18483,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "kpW" = (
@@ -18585,7 +18634,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "ktY" = (
 /obj/machinery/rnd/experimentor,
 /obj/item/relic,
@@ -19397,11 +19446,6 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/power/apc/auto_name/south,
-/obj/structure/displaycase/captain{
-	req_access = null;
-	req_access_txt = "20";
-	start_showpiece_type = /obj/item/ship_in_a_bottle
-	},
 /turf/open/floor/wood/large,
 /area/command/heads_quarters/skylineship/pilot)
 "kOz" = (
@@ -19673,11 +19717,6 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/green/visible,
 /turf/open/floor/iron/smooth,
 /area/engineering/atmos)
-"kYJ" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/hallway/secondary/exit/departure_lounge)
 "kYL" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -19865,7 +19904,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "lep" = (
 /obj/machinery/vending/dinnerware,
 /obj/item/reagent_containers/food/condiment/saltshaker{
@@ -21079,7 +21118,6 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/green/visible{
 	dir = 10
 	},
-/obj/machinery/portable_atmospherics/scrubber/huge,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine)
 "lMv" = (
@@ -21105,6 +21143,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "lNj" = (
@@ -21790,6 +21829,7 @@
 /obj/machinery/camera/autoname{
 	dir = 1
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/grimy,
 /area/service/chapel/main/monastery)
 "mhL" = (
@@ -22009,6 +22049,7 @@
 "mmz" = (
 /obj/structure/chair/pew,
 /obj/machinery/airalarm/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/grimy,
 /area/service/chapel/main/monastery)
 "mmI" = (
@@ -22037,6 +22078,7 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "mnu" = (
@@ -22201,7 +22243,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "msg" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/turf_decal/bot,
@@ -22356,6 +22398,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
+"mwC" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/hallway/skylineship/underbelly/port)
 "mwH" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -22497,6 +22547,14 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/commons/vacant_room/office)
+"mAn" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/maintenance/skylineship/port/deck_5_port_maintenance)
 "mAq" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/cargo,
 /turf/closed/wall/r_wall,
@@ -22594,6 +22652,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
 /turf/open/floor/iron/smooth,
 /area/engineering/main)
 "mBW" = (
@@ -22768,6 +22827,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "mHy" = (
@@ -22795,14 +22855,6 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers,
 /turf/open/floor/engine,
 /area/engineering/skylineship/turbine2)
-"mIl" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/airalarm/directional/north,
-/obj/machinery/light/directional/north,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
 "mIt" = (
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/wood,
@@ -22830,8 +22882,9 @@
 	dir = 8
 	},
 /obj/machinery/holopad,
+/obj/structure/cable,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "mJU" = (
 /obj/machinery/computer/cryopod{
 	pixel_y = 24
@@ -23082,11 +23135,11 @@
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/machinery/light/directional/west,
-/obj/machinery/suit_storage_unit/engine,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /obj/effect/turf_decal/box,
+/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine)
 "mQX" = (
@@ -23272,10 +23325,6 @@
 /obj/effect/mapping_helpers/paint_wall/skyline/outer_hull,
 /turf/closed/wall/r_wall,
 /area/engineering/atmospherics_engine)
-"mVi" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/outer_hull/stripe,
-/turf/closed/wall/r_wall,
-/area/hallway/skylineship/deck_5_hallway)
 "mWi" = (
 /obj/machinery/status_display/evac/directional/north,
 /obj/effect/decal/cleanable/dirt,
@@ -23455,6 +23504,10 @@
 /obj/effect/mapping_helpers/paint_wall/skyline/outer_hull,
 /turf/closed/wall/r_wall,
 /area/medical/chemistry)
+"nbn" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
 "nbo" = (
 /turf/open/floor/iron/smooth,
 /area/service/hydroponics)
@@ -23941,6 +23994,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "nqZ" = (
@@ -23999,7 +24053,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "nrR" = (
 /obj/effect/turf_decal/arrows/white,
@@ -24951,7 +25006,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "nQB" = (
 /obj/structure/disposalpipe/segment,
@@ -25234,6 +25290,9 @@
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	name = "Plasma Refill port"
 	},
 /turf/open/floor/iron/smooth,
 /area/engineering/engine_smes)
@@ -25698,14 +25757,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_5_hallway)
-"okM" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
 "okT" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
@@ -25797,6 +25848,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "onY" = (
@@ -25823,7 +25875,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "ope" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -25844,6 +25897,7 @@
 	dir = 6
 	},
 /obj/effect/turf_decal/caution/stand_clear,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "opr" = (
@@ -26022,7 +26076,8 @@
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "otD" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
@@ -26095,7 +26150,7 @@
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/tile/yellow/full,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "oww" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/plastic{
@@ -26690,11 +26745,6 @@
 /obj/effect/landmark/start/skyline/off_duty_crewmember,
 /turf/open/floor/wood/tile,
 /area/service/bar)
-"oLY" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/port/deck_5_port_maintenance)
 "oMb" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
 /turf/closed/wall/r_wall,
@@ -26866,6 +26916,11 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/security/brig)
+"oQd" = (
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth,
+/area/hallway/secondary/exit/departure_lounge)
 "oQh" = (
 /obj/structure/cable,
 /obj/structure/lattice/catwalk/plated/smooth,
@@ -26903,12 +26958,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_4_hallway)
-"oRf" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
 "oRv" = (
 /obj/structure/bodycontainer/morgue{
 	dir = 2
@@ -27829,6 +27878,7 @@
 	dir = 5
 	},
 /obj/machinery/holopad,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "puW" = (
@@ -28606,7 +28656,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/yellow/full,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/hallway/skylineship/deck_6_hallway)
 "pSe" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -29250,6 +29300,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/underbelly/port)
+"qkZ" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/maintenance/skylineship/port/deck_5_port_maintenance)
 "qlg" = (
 /obj/structure/sign/departments/bridge_small,
 /obj/effect/spawner/structure/window/reinforced,
@@ -29466,7 +29521,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "qps" = (
 /turf/open/floor/engine/n2,
@@ -29487,6 +29543,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "qpP" = (
@@ -30114,7 +30171,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "qKw" = (
 /obj/machinery/flasher/directional/north{
 	id = "brig2"
@@ -31302,7 +31359,8 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/yellow,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "rql" = (
 /obj/structure/chair{
@@ -31545,7 +31603,8 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "ryx" = (
 /obj/structure/table,
@@ -31818,7 +31877,7 @@
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/tile/yellow/full,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "rJm" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 8
@@ -32416,6 +32475,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/red,
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
 /turf/open/floor/iron/smooth,
 /area/engineering/main)
 "saR" = (
@@ -32522,6 +32582,7 @@
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/stripes/full,
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
 /turf/open/floor/iron/smooth,
 /area/engineering/atmospherics_engine)
 "sek" = (
@@ -32806,6 +32867,7 @@
 /obj/structure/cable/multilayer/multiz,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "sms" = (
@@ -32858,6 +32920,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "snz" = (
@@ -33059,7 +33122,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "stT" = (
 /obj/machinery/airalarm/directional/west,
@@ -33161,7 +33225,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "swt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -33432,7 +33497,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "sEN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/showroomfloor,
@@ -33603,6 +33668,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "sJn" = (
@@ -34139,7 +34205,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "sWn" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -34742,7 +34809,6 @@
 /turf/open/floor/iron/smooth,
 /area/command/bridge)
 "tpr" = (
-/obj/machinery/power/apc/auto_name/north,
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/siding/red/end{
 	dir = 1
@@ -34966,7 +35032,8 @@
 /obj/machinery/light/directional/south,
 /obj/structure/displaycase/captain{
 	req_access = null;
-	req_access_txt = "20"
+	req_access_txt = "20";
+	start_showpiece_type = /obj/item/ship_in_a_bottle
 	},
 /turf/open/floor/wood/large,
 /area/command/heads_quarters/skylineship/pilot)
@@ -35251,12 +35318,6 @@
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/iron/showroomfloor,
 /area/science/xenobiology)
-"tCC" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
 "tDc" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 4
@@ -35539,7 +35600,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "tKe" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -35548,7 +35610,8 @@
 /obj/machinery/camera/autoname{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "tKf" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -35859,10 +35922,8 @@
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
 "tQX" = (
-/obj/structure/chair{
-	dir = 4
-	},
 /obj/effect/landmark/start/hangover,
+/obj/machinery/vending/cigarette,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
 "tRe" = (
@@ -35914,6 +35975,7 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/holopad,
+/obj/structure/cable,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "tRo" = (
@@ -36483,6 +36545,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "uhG" = (
@@ -36668,7 +36731,6 @@
 /turf/open/floor/plating,
 /area/security/prison)
 "ukU" = (
-/obj/structure/cable,
 /obj/machinery/ai_slipper{
 	uses = 10
 	},
@@ -37822,7 +37884,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "uSd" = (
 /obj/structure/cable,
@@ -38276,6 +38339,7 @@
 	dir = 8
 	},
 /obj/structure/rack,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/smooth,
 /area/engineering/storage/tech)
 "vdL" = (
@@ -39046,6 +39110,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/caution/stand_clear,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "vAs" = (
@@ -39125,7 +39190,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "vCY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -39250,6 +39316,7 @@
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/light/directional/east,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "vEG" = (
@@ -39840,13 +39907,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "vVc" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "vVq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/hangover,
@@ -39925,7 +39992,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "waR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -40048,7 +40116,7 @@
 "wfY" = (
 /obj/effect/turf_decal/siding/yellow/end,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "wgb" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -40477,6 +40545,15 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
+"wsW" = (
+/obj/effect/spawner/structure/window/reinforced/grille,
+/obj/machinery/door/poddoor/preopen{
+	id = "brigprison";
+	name = "Prison Blast door"
+	},
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/security,
+/turf/open/floor/plating,
+/area/security/execution/transfer)
 "wtb" = (
 /obj/structure/chair/pew/right,
 /turf/open/floor/iron{
@@ -40700,10 +40777,8 @@
 /turf/open/floor/iron/showroomfloor,
 /area/science/xenobiology)
 "wAc" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
 "wAj" = (
@@ -40977,7 +41052,7 @@
 	},
 /obj/effect/turf_decal/tile/yellow/full,
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "wFp" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -41355,7 +41430,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "wPK" = (
 /obj/structure/spider/stickyweb,
@@ -41406,7 +41482,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/smooth,
-/area/security/prison)
+/area/security/execution/transfer)
 "wRV" = (
 /obj/effect/turf_decal/siding/blue,
 /obj/machinery/disposal/bin,
@@ -42246,12 +42322,9 @@
 /turf/open/floor/iron/smooth,
 /area/security/brig)
 "xkC" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
+/turf/open/floor/iron/smooth,
+/area/engineering/main)
 "xkE" = (
 /obj/structure/cable,
 /obj/structure/lattice/catwalk/plated/smooth,
@@ -42582,6 +42655,9 @@
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible{
+	dir = 5
 	},
 /turf/open/floor/engine,
 /area/engineering/atmospherics_engine)
@@ -43134,7 +43210,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/port)
 "xLN" = (
 /obj/structure/window/reinforced/tinted{
@@ -43368,6 +43445,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/smooth,
 /area/engineering/storage/tech)
 "xSC" = (
@@ -43607,7 +43685,8 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
 /area/hallway/skylineship/underbelly/starboard)
 "xZf" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -43663,6 +43742,10 @@
 /obj/structure/disposalpipe/trunk,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_1_hallway)
+"yaF" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/outer_hull,
+/turf/closed/wall/r_wall,
+/area/security/execution/transfer)
 "yaG" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -44085,6 +44168,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
 /turf/open/floor/iron/smooth,
 /area/engineering/main)
 "yjt" = (
@@ -55917,16 +56001,16 @@ bEp
 hzw
 oXG
 nvN
-wXs
-bxg
-bxg
-bxg
-bxg
+mwC
+aUg
+aUg
+aUg
+aUg
 cAA
-wXs
-wXs
-wXs
-wXs
+mwC
+mwC
+mwC
+mwC
 ryw
 waP
 kRm
@@ -56099,7 +56183,7 @@ xXP
 wSb
 oXG
 dJr
-bxg
+aUg
 tzQ
 cLE
 cLE
@@ -56281,7 +56365,7 @@ jnQ
 hGp
 iMR
 ooT
-bxg
+aUg
 cLE
 cLE
 vOU
@@ -131839,7 +131923,7 @@ ifQ
 jwM
 jwM
 bLu
-bLu
+eOo
 bLu
 mVd
 rhf
@@ -132021,8 +132105,8 @@ uiB
 djS
 uiB
 bLu
-azM
-azM
+eOo
+eOo
 azM
 bWz
 wHP
@@ -132736,7 +132820,7 @@ gKT
 iUa
 qvF
 rZx
-rZx
+chK
 iob
 siS
 tlN
@@ -133110,7 +133194,7 @@ etp
 gkP
 gVN
 mBH
-qFd
+xkC
 saH
 dxV
 kiZ
@@ -133474,7 +133558,7 @@ etp
 nXk
 gVN
 yjq
-qFd
+xkC
 saH
 sef
 xsV
@@ -134569,8 +134653,8 @@ bzV
 dCV
 bmY
 bLu
-azM
-azM
+gSH
+gSH
 azM
 uhI
 phv
@@ -134751,7 +134835,7 @@ jwM
 jwM
 jwM
 bLu
-bLu
+gSH
 bLu
 mVd
 bpB
@@ -181132,9 +181216,9 @@ fET
 fET
 jKA
 iqI
-ftX
+wAc
 oDq
-ftX
+wAc
 iqI
 ggH
 fET
@@ -181314,9 +181398,9 @@ fET
 fET
 ggH
 egh
-ftX
-ftX
-ftX
+wAc
+wAc
+wAc
 egh
 mRC
 nXT
@@ -181494,8 +181578,8 @@ fET
 fET
 fET
 fET
-mVi
-mIl
+eDv
+fMf
 hhJ
 uPz
 nDG
@@ -181678,13 +181762,13 @@ fET
 fET
 rgN
 tjP
-fMf
-tCC
-fMf
+ilQ
+fnn
+ilQ
 rHg
 mRC
 fnL
-oLY
+qkZ
 nBU
 fvy
 kNw
@@ -182058,7 +182142,7 @@ pfJ
 knj
 toB
 nXh
-cDZ
+mAn
 jyx
 fGs
 nXT
@@ -182786,7 +182870,7 @@ exI
 jgO
 lGk
 nXh
-cDZ
+mAn
 dGl
 dGl
 erM
@@ -182954,9 +183038,9 @@ jfD
 pvy
 dQf
 aih
-okM
-okM
-okM
+snf
+snf
+snf
 qaN
 gEm
 gtp
@@ -182972,7 +183056,7 @@ nXh
 nXh
 nXh
 nXh
-cDZ
+mAn
 dGl
 fGs
 dDx
@@ -183880,8 +183964,8 @@ dSf
 hXl
 fty
 nDG
-oRf
-oRf
+qNL
+qNL
 hEB
 sJe
 eAt
@@ -184054,7 +184138,7 @@ eNw
 qNL
 qNL
 rqB
-xkC
+nQl
 eNw
 mrD
 hhJ
@@ -184062,7 +184146,7 @@ nyI
 bQw
 oAU
 dKv
-fYG
+nQl
 hhJ
 eNw
 wkv
@@ -184237,9 +184321,9 @@ eNw
 ipP
 fTO
 hmY
-oRf
+qNL
 uhE
-oRf
+qNL
 smi
 ond
 puU
@@ -184416,9 +184500,9 @@ cdC
 mdX
 eNw
 hEH
-xkC
+nQl
 but
-xkC
+nQl
 hhJ
 oTn
 eNw
@@ -184426,7 +184510,7 @@ fgQ
 qPu
 nbD
 dKv
-wAc
+vCN
 hhJ
 hhJ
 wkv
@@ -185520,7 +185604,7 @@ oDC
 vcj
 oDC
 vcj
-bXT
+ftX
 vng
 ijt
 ijt
@@ -186062,7 +186146,7 @@ mhe
 vGo
 nJc
 uqb
-bXT
+ftX
 vAN
 ijt
 ijt
@@ -186241,7 +186325,7 @@ fUX
 jwS
 vSr
 mhe
-xQX
+ehN
 vrM
 hfw
 vng
@@ -186607,7 +186691,7 @@ uqb
 hfw
 acR
 uqb
-bXT
+ftX
 vng
 jHp
 ijt
@@ -187137,7 +187221,7 @@ fET
 fET
 fET
 oaz
-efi
+oQd
 unT
 hod
 unT
@@ -187148,7 +187232,7 @@ nXT
 ijt
 ijt
 sbM
-bbQ
+nbn
 vAN
 vAN
 vAN
@@ -187320,9 +187404,9 @@ fET
 fET
 vFz
 ePD
-kYJ
-kYJ
-kYJ
+klH
+klH
+klH
 ePD
 vFz
 fET
@@ -208269,7 +208353,7 @@ wGy
 yiV
 ojX
 tIW
-lQk
+yaF
 wgy
 wgy
 dfl
@@ -208446,14 +208530,14 @@ qGt
 hUL
 sBM
 hUL
-bCS
-qGt
-qGt
-qGt
-qGt
-bCS
+aLH
+eqs
+eqs
+eqs
+eqs
+aLH
 haH
-lQk
+yaF
 srI
 wgy
 wgy
@@ -208628,11 +208712,11 @@ qGt
 eKS
 lqZ
 pQF
-bCS
-qGt
-bCS
-bCS
-qGt
+aLH
+eqs
+aLH
+aLH
+eqs
 owb
 aan
 wFm
@@ -208805,13 +208889,13 @@ qGt
 hUL
 qGt
 qGt
-qGt
-qGt
-hUL
+eqs
+eqs
+wsW
 hDH
-hUL
-qGt
-qGt
+wsW
+eqs
+eqs
 wFm
 bvd
 wFm
@@ -208987,7 +209071,7 @@ hYE
 rZp
 mnu
 azY
-bCS
+aLH
 rJi
 mrV
 lef
@@ -209169,7 +209253,7 @@ lrf
 lrf
 fNR
 xNa
-bCS
+aLH
 dtD
 gaU
 wRQ
@@ -209351,18 +209435,18 @@ xUq
 xUq
 uHO
 adi
-bCS
-qGt
-qGt
+aLH
+eqs
+eqs
 dPM
 dPM
 dPM
-qGt
-qGt
-bCS
+eqs
+eqs
+aLH
 pSd
-qGt
-bCS
+eqs
+aLH
 pOb
 xPi
 kAp
