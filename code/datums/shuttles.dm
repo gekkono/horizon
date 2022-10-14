@@ -330,7 +330,7 @@
 	suffix = "skyline"
 	name = "CPCV Skyline Emergency Shuttle"
 	credit_cost = CARGO_CRATE_VALUE * 4
-	description = "A small sized shuttle used a ferry for the CPCV Skyline."
+	description = "A small sized shuttle used as a ferry for the CPCV Skyline."
 
 /datum/map_template/shuttle/emergency/mini
 	suffix = "mini"

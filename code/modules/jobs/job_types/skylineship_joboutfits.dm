@@ -409,7 +409,7 @@
 
 	belt = /obj/item/pda/heads/skyline/lead_deckhand
 	ears = /obj/item/radio/headset/heads/skyline/lead_deckhand
-	uniform = /obj/item/clothing/under/rank/cargo
+	uniform = /obj/item/clothing/under/rank/cargo/qm
 	shoes = /obj/item/clothing/shoes/sneakers/brown
 	glasses = /obj/item/clothing/glasses/sunglasses
 	l_hand = /obj/item/clipboard
@@ -425,7 +425,7 @@
 
 	belt = /obj/item/pda/skyline/deckhand
 	ears = /obj/item/radio/headset/headset_cargo
-	uniform = /obj/item/clothing/under/rank/cargo
+	uniform = /obj/item/clothing/under/rank/cargo/tech
 	shoes = /obj/item/clothing/shoes/sneakers/brown
 
 	id_trim = /datum/id_trim/job/skyline/deckhand
@@ -438,7 +438,7 @@
 	ears = /obj/item/radio/headset/skyline/salvage_worker
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	gloves = /obj/item/clothing/gloves/color/black
-	uniform = /obj/item/clothing/under/rank/cargo
+	uniform = /obj/item/clothing/under/rank/cargo/miner/lavaland
 	l_pocket = /obj/item/reagent_containers/hypospray/medipen/survival
 	r_pocket = /obj/item/storage/bag/ore //causes issues if spawned in backpack
 	backpack_contents = list(

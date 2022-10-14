@@ -128,11 +128,11 @@
 	The Skyline intercepted an unknown escape pod signal lodged in a free-floating asteroid during the previous shift.
 	<br>
 	Upon further scans, the asteroid turned out to be quite rich in most resources.
-	<br>
+	<br><br>
 	So after extracting the passenger from the pod, the Captain decided to capture the asteroid.
 	<br>
 	The bastard took several hours to get aligned, and we ran out of time before getting to mine it.
-	<br>
+	<br><br>
 	So, feel free to crack it open.
 	<br>
 	- Last shift's Salvage Team"}
@@ -141,16 +141,16 @@
 	name = "Orders from CentCom"
 	info = {"MISSION STATEMENT
 	<br>
-	Captain, you have been delegated some additional tasks alongside your peacekeeping mission.
-	While these objectives are not critical they would assist us in furthering our hold in the sector.
-	Look through your current manifest and make a plan to complete atleast two of these objectives.
+	Captain, you have been delegated some additional tasks alongside your peacekeeping mission.<br>
+	While these objectives are not critical they would assist us in furthering our hold in the sector.<br>
+	Look through your current manifest and make a plan to complete atleast two of these objectives.<br>
 	<br>
 	Best of luck, Captain.
-	<br><br>
-	OBJ1. Perform a general survey of the local planets, record their sector coordinates and store for later use.
-	OBJ2. Make contact with all civilian trading hubs in the sector, record what companies are established in them and what they sell. Store this information for later use.
-	OBJ3. Send a surveying team to any habitable worlds within the sector. Collect samples for further study.
-	OBJ4. Establish a forward operating post upon a local habitable planet, with a facility to refuel shuttles.
-	OBJ5. Establish a listening post in an asteroid cluster, in the midst of any available ruins.
-	OBJ6. Establish a small and functional spaceport, with teleport beacons and gigabeacons. Location must be in space.
-	"}
+	<br><br><i>
+	OBJ1. Perform a general survey of the local planets, record their sector coordinates and store for later use.<br><br>
+	OBJ2. Make contact with all civilian trading hubs in the sector, record what companies are established in them and what they sell. Store this information for later use.<br><br>
+	OBJ3. Send a surveying team to any habitable worlds within the sector. Collect samples for further study.<br><br>
+	OBJ4. Establish a forward operating post upon a local habitable planet, with a facility to refuel shuttles.<br><br>
+	OBJ5. Establish a listening post in an asteroid cluster, in the midst of any available ruins.<br><br>
+	OBJ6. Establish a small and functional spaceport, with teleport beacons and gigabeacons. Location must be in space.<br><br>
+	</i>"}
