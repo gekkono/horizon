@@ -1156,7 +1156,9 @@
 /turf/closed/wall/r_wall,
 /area/security/detectives_office)
 "aIc" = (
-/obj/machinery/mineral/ore_redemption,
+/obj/machinery/mineral/ore_redemption{
+	dir = 1
+	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/cargo/office)
@@ -1222,10 +1224,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
-"aLH" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
-/turf/closed/wall/r_wall/rust,
-/area/security/execution/transfer)
 "aLI" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -1483,6 +1481,12 @@
 /area/cargo/sorting)
 "aSB" = (
 /obj/machinery/suit_storage_unit/captain,
+/obj/machinery/requests_console/directional/west{
+	announcementConsole = 1;
+	department = "Captain's Desk";
+	departmentType = 5;
+	name = "Captain's Requests Console"
+	},
 /turf/open/floor/wood/large,
 /area/command/heads_quarters/captain)
 "aSG" = (
@@ -1575,13 +1579,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/security/checkpoint/customs)
-"aUg" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/hallway/skylineship/underbelly/port)
 "aUH" = (
 /obj/structure/filingcabinet,
 /obj/effect/turf_decal/tile/neutral/full,
@@ -1898,6 +1895,11 @@
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/machinery/requests_console/directional/south{
+	department = "Engineering";
+	departmentType = 3;
+	name = "Engineering Requests Console"
 	},
 /turf/open/floor/iron/smooth,
 /area/engineering/engine_smes)
@@ -3825,10 +3827,6 @@
 /obj/effect/turf_decal/siding/red/corner,
 /turf/open/floor/iron/smooth,
 /area/security/brig)
-"chK" = (
-/obj/machinery/vending/cigarette,
-/turf/open/floor/iron/smooth,
-/area/hallway/skylineship/deck_2_hallway)
 "chZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
@@ -3875,6 +3873,13 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/cargo/office)
+"cku" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/dark,
+/area/service/chapel/main/monastery)
 "ckR" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers,
@@ -4545,6 +4550,12 @@
 /obj/item/clothing/under/rank/security/head_of_security/formal/security_team_lead,
 /obj/machinery/light/warm/directional/east,
 /obj/effect/turf_decal/tile/red/full,
+/obj/machinery/requests_console/directional/north{
+	announcementConsole = 1;
+	department = "Head of Security's Desk";
+	departmentType = 5;
+	name = "Head of Security's Requests Console"
+	},
 /turf/open/floor/iron/smooth,
 /area/security/brig)
 "cBF" = (
@@ -4803,6 +4814,10 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/engine/n2,
 /area/engineering/atmos)
+"cJN" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
+/turf/closed/wall/r_wall,
+/area/security/execution/transfer)
 "cKg" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -6324,8 +6339,7 @@
 	},
 /obj/effect/turf_decal/tile/dark,
 /obj/machinery/light_switch/directional/south{
-	pixel_x = -4;
-	pixel_y = 3
+	pixel_x = 22
 	},
 /turf/open/floor/iron/white,
 /area/commons/toilet/restrooms)
@@ -7410,13 +7424,6 @@
 /obj/item/radio/headset/heads/skyline/pilot,
 /turf/open/floor/wood/large,
 /area/command/heads_quarters/skylineship/pilot)
-"ehN" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/dark,
-/area/service/chapel/main/monastery)
 "ehS" = (
 /obj/machinery/rnd/production/protolathe/department/security,
 /obj/effect/turf_decal/tile/red/full,
@@ -7731,10 +7738,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_5_hallway)
-"eqs" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
-/turf/closed/wall/r_wall,
-/area/security/execution/transfer)
 "eqx" = (
 /obj/structure/bed,
 /obj/item/bedsheet/black,
@@ -7966,6 +7969,10 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/smooth,
 /area/commons/fitness)
+"exq" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
+/turf/open/floor/iron/smooth,
+/area/engineering/main)
 "exx" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 6
@@ -8266,10 +8273,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/cargo/warehouse)
-"eDv" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/outer_hull/stripe,
-/turf/closed/wall/r_wall,
-/area/hallway/skylineship/deck_5_hallway)
 "eDE" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/engineering,
 /turf/closed/wall/r_wall,
@@ -8348,6 +8351,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/skylineship/port/deck_3_port_maintenance)
+"eFT" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/maintenance/skylineship/port/deck_5_port_maintenance)
 "eFW" = (
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable,
@@ -8584,6 +8592,10 @@
 "eOY" = (
 /obj/structure/ladder,
 /obj/machinery/light/directional/west,
+/obj/machinery/requests_console/directional/south{
+	department = "Genetics";
+	name = "Genetics Requests console"
+	},
 /turf/open/floor/glass/reinforced,
 /area/science/genetics)
 "ePf" = (
@@ -9365,12 +9377,6 @@
 	},
 /turf/open/floor/carpet,
 /area/commons/vacant_room/office)
-"fnn" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
 "fnx" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -9603,12 +9609,9 @@
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_6_hallway)
 "ftX" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
+/obj/effect/mapping_helpers/paint_wall/skyline/outer_hull,
+/turf/closed/wall/r_wall,
+/area/security/execution/transfer)
 "ftY" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/south,
@@ -9925,6 +9928,13 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/iron/showroomfloor,
 /area/science/test_area)
+"fEp" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
 "fEt" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -10121,6 +10131,11 @@
 	pixel_x = 10;
 	pixel_y = 6
 	},
+/obj/machinery/requests_console/directional/north{
+	department = "Janitorial";
+	departmentType = 1;
+	name = "Janitorial Requests Console"
+	},
 /turf/open/floor/iron/smooth,
 /area/service/janitor)
 "fKo" = (
@@ -10187,8 +10202,6 @@
 "fMf" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/airalarm/directional/north,
-/obj/machinery/light/directional/north,
 /obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/hallway/skylineship/deck_5_hallway)
@@ -10453,6 +10466,12 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
+	},
+/obj/machinery/requests_console/directional/north{
+	department = "Robotics";
+	departmentType = 2;
+	name = "Robotics Requests Console";
+	receive_ore_updates = 1
 	},
 /turf/open/floor/iron/dark/textured,
 /area/science/robotics)
@@ -10790,6 +10809,13 @@
 	},
 /obj/effect/turf_decal/tile/purple/full,
 /obj/effect/turf_decal/tile/dark/full,
+/obj/machinery/requests_console/directional/west{
+	announcementConsole = 1;
+	department = "Research Director's Desk";
+	departmentType = 5;
+	name = "Research Director's Requests Console";
+	receive_ore_updates = 1
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/science/research)
 "gcx" = (
@@ -10807,6 +10833,14 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
+"gcG" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/light/directional/north,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/hallway/skylineship/deck_5_hallway)
 "gcJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -11965,6 +11999,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/machinery/requests_console/directional/east{
+	department = "Detective's Office";
+	name = "Detective's Requests Console"
+	},
 /turf/open/floor/wood,
 /area/security/detectives_office)
 "gQt" = (
@@ -12985,6 +13023,11 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/green,
+/obj/machinery/requests_console/directional/east{
+	department = "Hydroponics";
+	departmentType = 2;
+	name = "Hydroponics Requests Console"
+	},
 /turf/open/floor/iron/smooth,
 /area/service/hydroponics)
 "hva" = (
@@ -13700,6 +13743,10 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/yellow,
+/obj/machinery/requests_console/directional/south{
+	department = "Mining";
+	name = "Mining Requests Console"
+	},
 /turf/open/floor/iron/smooth,
 /area/cargo/miningoffice)
 "hMm" = (
@@ -13886,6 +13933,11 @@
 /obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/service/skyline/kitchen/coldroom/underbelly)
+"hUf" = (
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth,
+/area/hallway/secondary/exit/departure_lounge)
 "hUp" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/purple{
@@ -14452,6 +14504,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/engineering/break_room)
 "iib" = (
@@ -14606,12 +14659,6 @@
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/engineering,
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
-"ilQ" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
 "ilX" = (
 /obj/machinery/portable_atmospherics/pump,
 /obj/effect/turf_decal/bot,
@@ -15547,6 +15594,15 @@
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/dark/smooth_large,
 /area/medical/morgue)
+"iLt" = (
+/obj/effect/spawner/structure/window/reinforced/grille,
+/obj/machinery/door/poddoor/preopen{
+	id = "brigprison";
+	name = "Prison Blast door"
+	},
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/security,
+/turf/open/floor/plating,
+/area/security/execution/transfer)
 "iLv" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -16033,6 +16089,14 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_1_hallway)
+"jaO" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/maintenance/skylineship/port/deck_5_port_maintenance)
 "jbh" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate/wooden,
@@ -16071,6 +16135,11 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/requests_console/directional/north{
+	department = "AI";
+	departmentType = 5;
+	name = "AI Requests Console"
+	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai)
 "jcl" = (
@@ -16394,6 +16463,10 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/security/brig)
+"jkB" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
+/turf/closed/wall/r_wall/rust,
+/area/security/execution/transfer)
 "jkH" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/shard,
@@ -16630,8 +16703,6 @@
 /turf/closed/wall,
 /area/engineering/skylineship/turbine1)
 "joM" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/west,
 /obj/machinery/light_switch/directional/north,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -16645,6 +16716,12 @@
 /obj/structure/table,
 /obj/item/flashlight/lamp{
 	pixel_x = 7
+	},
+/obj/machinery/requests_console/directional/west{
+	announcementConsole = 1;
+	department = "Chief Engineer's Desk";
+	departmentType = 3;
+	name = "Chief Engineer's Requests Console"
 	},
 /turf/open/floor/iron/smooth,
 /area/engineering/break_room)
@@ -17062,6 +17139,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/skylineship/starboard/deck_2_starboard_maintenance)
+"jzk" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "jzz" = (
 /obj/machinery/camera/motion{
 	c_tag = "AI Chamber - Aft";
@@ -18332,11 +18414,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
-"klH" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/hallway/secondary/exit/departure_lounge)
 "klJ" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
@@ -20069,6 +20146,12 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron/smooth,
 /area/service/hydroponics/garden)
+"ljs" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/hallway/skylineship/deck_5_hallway)
 "ljS" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -21330,6 +21413,11 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+/obj/machinery/requests_console/directional/east{
+	department = "Xenobiology";
+	name = "Xenobiology Requests Console";
+	receive_ore_updates = 1
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/science/xenobiology)
 "lRd" = (
@@ -21432,6 +21520,12 @@
 	pixel_x = -3;
 	pixel_y = 5
 	},
+/obj/machinery/requests_console/directional/north{
+	announcementConsole = 1;
+	department = "Head of Personnel's Desk";
+	departmentType = 5;
+	name = "Head of Personnel's Requests Console"
+	},
 /turf/open/floor/carpet/royalblue,
 /area/command/heads_quarters/skylineship/first_mate)
 "lUn" = (
@@ -21512,6 +21606,11 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/south,
+/obj/machinery/requests_console/directional/east{
+	department = "Atmospherics";
+	departmentType = 3;
+	name = "Atmospherics Requests Console"
+	},
 /turf/open/floor/iron/smooth,
 /area/engineering/atmos)
 "lWW" = (
@@ -21862,6 +21961,11 @@
 /obj/structure/closet/l3closet/virology,
 /obj/machinery/light/small/directional/west,
 /obj/effect/turf_decal/tile/green/full,
+/obj/machinery/requests_console/directional/north{
+	department = "Virology";
+	name = "Virology Requests Console";
+	receive_ore_updates = 1
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/medical/virology)
 "mjI" = (
@@ -22398,14 +22502,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
-"mwC" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
-/area/hallway/skylineship/underbelly/port)
 "mwH" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -22547,14 +22643,6 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/commons/vacant_room/office)
-"mAn" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/port/deck_5_port_maintenance)
 "mAq" = (
 /obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/cargo,
 /turf/closed/wall/r_wall,
@@ -23504,10 +23592,6 @@
 /obj/effect/mapping_helpers/paint_wall/skyline/outer_hull,
 /turf/closed/wall/r_wall,
 /area/medical/chemistry)
-"nbn" = (
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
 "nbo" = (
 /turf/open/floor/iron/smooth,
 /area/service/hydroponics)
@@ -24314,6 +24398,8 @@
 	pixel_y = 5;
 	pixel_x = 3
 	},
+/obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/engineering/break_room)
 "nzd" = (
@@ -24532,6 +24618,12 @@
 	pixel_x = -7
 	},
 /obj/item/cartridge/cmo,
+/obj/machinery/requests_console/directional/east{
+	announcementConsole = 1;
+	department = "Chief Medical Officer's Desk";
+	departmentType = 5;
+	name = "Chief Medical Officer's Requests Console"
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/medical/medbay/zone2)
 "nDg" = (
@@ -25566,6 +25658,13 @@
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/tile/purple/anticorner{
 	dir = 4
+	},
+/obj/machinery/requests_console/directional/east{
+	announcementConsole = 1;
+	department = "Research Lab";
+	departmentType = 5;
+	name = "Research Requests Console";
+	receive_ore_updates = 1
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/science/lab)
@@ -26916,11 +27015,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/security/brig)
-"oQd" = (
-/obj/machinery/airalarm/directional/north,
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/smooth,
-/area/hallway/secondary/exit/departure_lounge)
 "oQh" = (
 /obj/structure/cable,
 /obj/structure/lattice/catwalk/plated/smooth,
@@ -26978,6 +27072,15 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_4_hallway)
+"oRI" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/requests_console/directional/north{
+	department = "Tool Storage";
+	name = "Tool Storage Requests Console"
+	},
+/turf/open/floor/iron/smooth,
+/area/commons/storage/primary)
 "oRL" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/cyan/visible,
@@ -27172,12 +27275,9 @@
 /turf/open/floor/iron/smooth,
 /area/engineering/atmos)
 "oXg" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/machinery/power/apc/auto_name/south,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/starboard/deck_3_starboard_maintenance)
+/obj/machinery/vending/cigarette,
+/turf/open/floor/iron/smooth,
+/area/hallway/skylineship/deck_2_hallway)
 "oXk" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
 /turf/open/floor/iron/smooth,
@@ -29300,11 +29400,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/underbelly/port)
-"qkZ" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/maintenance/skylineship/port/deck_5_port_maintenance)
 "qlg" = (
 /obj/structure/sign/departments/bridge_small,
 /obj/effect/spawner/structure/window/reinforced,
@@ -32014,6 +32109,10 @@
 	},
 /turf/open/floor/plating,
 /area/science/robotics)
+"rMq" = (
+/obj/effect/mapping_helpers/paint_wall/skyline/outer_hull/stripe,
+/turf/closed/wall/r_wall,
+/area/hallway/skylineship/deck_5_hallway)
 "rMU" = (
 /obj/machinery/door_buttons/airlock_controller{
 	idExterior = "engine_eva_airlock_exteriorB";
@@ -32612,14 +32711,36 @@
 	name = "Rifle Rack";
 	dir = 8
 	},
-/obj/item/gun/energy/e_gun/dragnet{
-	pixel_y = -7
-	},
-/obj/item/gun/energy/e_gun/dragnet{
-	pixel_y = -7
-	},
-/obj/item/gun/energy/e_gun/dragnet,
 /obj/effect/turf_decal/tile/red/full,
+/obj/item/ammo_box/magazine/recharge{
+	pixel_y = -10;
+	pixel_x = -6
+	},
+/obj/item/ammo_box/magazine/recharge{
+	pixel_y = -10;
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/recharge{
+	pixel_y = -10
+	},
+/obj/item/ammo_box/magazine/recharge{
+	pixel_x = -6
+	},
+/obj/item/ammo_box/magazine/recharge,
+/obj/item/ammo_box/magazine/recharge{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/recharge{
+	pixel_y = 10;
+	pixel_x = -6
+	},
+/obj/item/ammo_box/magazine/recharge{
+	pixel_y = 10
+	},
+/obj/item/ammo_box/magazine/recharge{
+	pixel_y = 10;
+	pixel_x = 6
+	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/security/armory)
 "seN" = (
@@ -34578,6 +34699,21 @@
 /obj/effect/turf_decal/siding/yellow,
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
+"tjh" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/yellow,
+/obj/machinery/requests_console/directional/south{
+	department = "Chemistry";
+	departmentType = 1;
+	name = "Chemistry Requests Console"
+	},
+/turf/open/floor/iron/white,
+/area/medical/chemistry)
 "tjm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -34808,6 +34944,14 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/smooth,
 /area/command/bridge)
+"tpn" = (
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/lattice/catwalk/plated/smooth,
+/turf/open/floor/plating,
+/area/hallway/skylineship/underbelly/port)
 "tpr" = (
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/siding/red/end{
@@ -37765,7 +37909,7 @@
 	idDoor = "securecargob";
 	idSelf = "secure_cargo_control";
 	name = "Access Button";
-	pixel_y = 51;
+	pixel_y = 24;
 	req_access_txt = "55"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -38069,6 +38213,14 @@
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
+"uXz" = (
+/obj/machinery/requests_console/directional/south{
+	department = "Chapel";
+	departmentType = 2;
+	name = "Chapel Requests Console"
+	},
+/turf/open/floor/iron/dark,
+/area/service/chapel/main/monastery)
 "uXU" = (
 /obj/machinery/door/airlock/external{
 	name = "External Docking Port"
@@ -40509,6 +40661,10 @@
 /obj/effect/turf_decal/tile/red,
 /obj/machinery/light/directional/north,
 /obj/machinery/camera/autoname,
+/obj/machinery/requests_console/directional/north{
+	department = "Kitchen";
+	name = "Kitchen Requests Console"
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen)
 "wri" = (
@@ -40545,15 +40701,6 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_2_hallway)
-"wsW" = (
-/obj/effect/spawner/structure/window/reinforced/grille,
-/obj/machinery/door/poddoor/preopen{
-	id = "brigprison";
-	name = "Prison Blast door"
-	},
-/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull/security,
-/turf/open/floor/plating,
-/area/security/execution/transfer)
 "wtb" = (
 /obj/structure/chair/pew/right,
 /turf/open/floor/iron{
@@ -40777,10 +40924,12 @@
 /turf/open/floor/iron/showroomfloor,
 /area/science/xenobiology)
 "wAc" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
-/area/hallway/skylineship/deck_5_hallway)
+/area/hallway/skylineship/underbelly/port)
 "wAj" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 4
@@ -40808,6 +40957,11 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/yellow,
+/obj/machinery/requests_console/directional/south{
+	department = "Pharmacy";
+	name = "Pharmacy Requests Console";
+	receive_ore_updates = 1
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/medical/pharmacy)
 "wAG" = (
@@ -42322,9 +42476,10 @@
 /turf/open/floor/iron/smooth,
 /area/security/brig)
 "xkC" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/yellow/visible,
-/turf/open/floor/iron/smooth,
-/area/engineering/main)
+/obj/effect/mapping_helpers/paint_wall/skyline/inner_hull,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/hallway/skylineship/deck_5_hallway)
 "xkE" = (
 /obj/structure/cable,
 /obj/structure/lattice/catwalk/plated/smooth,
@@ -42807,6 +42962,11 @@
 	},
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/bot,
+/obj/machinery/requests_console/directional/north{
+	department = "Cargo Bay";
+	departmentType = 2;
+	name = "Cargo Bay Requests Console"
+	},
 /turf/open/floor/iron/smooth,
 /area/cargo/storage)
 "xzx" = (
@@ -43742,10 +43902,6 @@
 /obj/structure/disposalpipe/trunk,
 /turf/open/floor/iron/smooth,
 /area/hallway/skylineship/deck_1_hallway)
-"yaF" = (
-/obj/effect/mapping_helpers/paint_wall/skyline/outer_hull,
-/turf/closed/wall/r_wall,
-/area/security/execution/transfer)
 "yaG" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -43990,6 +44146,10 @@
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/dark/textured,
 /area/science/robotics)
+"yfN" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/maintenance/skylineship/starboard/deck_5_starboard_maintenance)
 "yfO" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/smooth,
@@ -44258,6 +44418,11 @@
 	},
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 8
+	},
+/obj/machinery/requests_console/directional/west{
+	department = "Toxins Lab";
+	departmentType = 5;
+	name = "Toxins Requests Console"
 	},
 /turf/open/floor/engine,
 /area/science/mixing)
@@ -56001,16 +56166,16 @@ bEp
 hzw
 oXG
 nvN
-mwC
-aUg
-aUg
-aUg
-aUg
+tpn
+wAc
+wAc
+wAc
+wAc
 cAA
-mwC
-mwC
-mwC
-mwC
+tpn
+tpn
+tpn
+tpn
 ryw
 waP
 kRm
@@ -56183,7 +56348,7 @@ xXP
 wSb
 oXG
 dJr
-aUg
+wAc
 tzQ
 cLE
 cLE
@@ -56365,7 +56530,7 @@ jnQ
 hGp
 iMR
 ooT
-aUg
+wAc
 cLE
 cLE
 vOU
@@ -132820,7 +132985,7 @@ gKT
 iUa
 qvF
 rZx
-chK
+oXg
 iob
 siS
 tlN
@@ -133194,7 +133359,7 @@ etp
 gkP
 gVN
 mBH
-xkC
+exq
 saH
 dxV
 kiZ
@@ -133558,7 +133723,7 @@ etp
 nXk
 gVN
 yjq
-xkC
+exq
 saH
 sef
 xsV
@@ -134643,7 +134808,7 @@ ddt
 mOA
 mOA
 mig
-oXg
+dSC
 jnH
 iTG
 nyQ
@@ -135913,7 +136078,7 @@ fZk
 eeZ
 whH
 qVD
-tja
+tjh
 rkY
 nbh
 fET
@@ -160305,7 +160470,7 @@ ttV
 aME
 ttV
 aME
-oAN
+oRI
 ghd
 iqP
 tqo
@@ -181216,9 +181381,9 @@ fET
 fET
 jKA
 iqI
-wAc
+xkC
 oDq
-wAc
+xkC
 iqI
 ggH
 fET
@@ -181398,9 +181563,9 @@ fET
 fET
 ggH
 egh
-wAc
-wAc
-wAc
+xkC
+xkC
+xkC
 egh
 mRC
 nXT
@@ -181578,8 +181743,8 @@ fET
 fET
 fET
 fET
-eDv
-fMf
+rMq
+gcG
 hhJ
 uPz
 nDG
@@ -181762,13 +181927,13 @@ fET
 fET
 rgN
 tjP
-ilQ
-fnn
-ilQ
+fMf
+ljs
+fMf
 rHg
 mRC
 fnL
-qkZ
+eFT
 nBU
 fvy
 kNw
@@ -182142,7 +182307,7 @@ pfJ
 knj
 toB
 nXh
-mAn
+jaO
 jyx
 fGs
 nXT
@@ -182870,7 +183035,7 @@ exI
 jgO
 lGk
 nXh
-mAn
+jaO
 dGl
 dGl
 erM
@@ -183056,7 +183221,7 @@ nXh
 nXh
 nXh
 nXh
-mAn
+jaO
 dGl
 fGs
 dDx
@@ -185598,13 +185763,13 @@ joi
 wtb
 twT
 fCt
-alR
+uXz
 hfw
 oDC
 vcj
 oDC
 vcj
-ftX
+fEp
 vng
 ijt
 ijt
@@ -186146,7 +186311,7 @@ mhe
 vGo
 nJc
 uqb
-ftX
+fEp
 vAN
 ijt
 ijt
@@ -186325,7 +186490,7 @@ fUX
 jwS
 vSr
 mhe
-ehN
+cku
 vrM
 hfw
 vng
@@ -186691,7 +186856,7 @@ uqb
 hfw
 acR
 uqb
-ftX
+fEp
 vng
 jHp
 ijt
@@ -187221,7 +187386,7 @@ fET
 fET
 fET
 oaz
-oQd
+hUf
 unT
 hod
 unT
@@ -187232,7 +187397,7 @@ nXT
 ijt
 ijt
 sbM
-nbn
+yfN
 vAN
 vAN
 vAN
@@ -187404,9 +187569,9 @@ fET
 fET
 vFz
 ePD
-klH
-klH
-klH
+jzk
+jzk
+jzk
 ePD
 vFz
 fET
@@ -208353,7 +208518,7 @@ wGy
 yiV
 ojX
 tIW
-yaF
+ftX
 wgy
 wgy
 dfl
@@ -208530,14 +208695,14 @@ qGt
 hUL
 sBM
 hUL
-aLH
-eqs
-eqs
-eqs
-eqs
-aLH
+jkB
+cJN
+cJN
+cJN
+cJN
+jkB
 haH
-yaF
+ftX
 srI
 wgy
 wgy
@@ -208712,11 +208877,11 @@ qGt
 eKS
 lqZ
 pQF
-aLH
-eqs
-aLH
-aLH
-eqs
+jkB
+cJN
+jkB
+jkB
+cJN
 owb
 aan
 wFm
@@ -208889,13 +209054,13 @@ qGt
 hUL
 qGt
 qGt
-eqs
-eqs
-wsW
+cJN
+cJN
+iLt
 hDH
-wsW
-eqs
-eqs
+iLt
+cJN
+cJN
 wFm
 bvd
 wFm
@@ -209071,7 +209236,7 @@ hYE
 rZp
 mnu
 azY
-aLH
+jkB
 rJi
 mrV
 lef
@@ -209253,7 +209418,7 @@ lrf
 lrf
 fNR
 xNa
-aLH
+jkB
 dtD
 gaU
 wRQ
@@ -209435,18 +209600,18 @@ xUq
 xUq
 uHO
 adi
-aLH
-eqs
-eqs
+jkB
+cJN
+cJN
 dPM
 dPM
 dPM
-eqs
-eqs
-aLH
+cJN
+cJN
+jkB
 pSd
-eqs
-aLH
+cJN
+jkB
 pOb
 xPi
 kAp
