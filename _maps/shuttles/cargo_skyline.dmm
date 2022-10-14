@@ -4,7 +4,7 @@
 /area/shuttle/supply)
 "c" = (
 /obj/item/paper/fluff/stations/skylineship/cargo_shuttle_notice{
-	step_y = 27
+	pixel_y = 27
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/smooth_corner,
@@ -47,7 +47,7 @@
 "k" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/paper/fluff/stations/skylineship/cargo_shuttle_notice{
-	step_y = 27
+	pixel_y = 27
 	},
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 8
