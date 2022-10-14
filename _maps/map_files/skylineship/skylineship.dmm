@@ -11150,7 +11150,7 @@
 /area/cargo/storage)
 "gxH" = (
 /obj/machinery/igniter{
-	id = turbine1
+	id = "turbine1"
 	},
 /obj/structure/cable,
 /obj/machinery/air_sensor/atmos/incinerator_tank{
