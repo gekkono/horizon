@@ -61,5 +61,5 @@
 	overmap_object_type = /datum/overmap_object/shuttle/ship/skyline
 
 /datum/map_config/skylineship/get_map_info()
-	return "You are aboard the <b>[map_name],</b> a military peacekeeping vessel affiliated with the Commonwealth of Periphery Colonies. \
-	No meaningful authorities call to claim the planets and resources in this unregulated sector, so development is fair game."
+	return {"You are aboard the <b>[map_name]</b>, a military peacekeeping vessel affiliated with the Commonwealth of Periphery Colonies.
+No meaningful authorities call to claim the planets and resources in this unregulated sector, so development is fair game."}
