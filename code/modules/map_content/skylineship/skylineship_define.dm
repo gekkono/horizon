@@ -62,4 +62,4 @@
 
 /datum/map_config/tradership/get_map_info()
 	return "You are aboard the <b>[map_name],</b> a military peacekeeping vessel affiliated with the Commonwealth of Periphery Colonies. \
-	No meaningful authorities call claim the planets and resources in this unregulated sector, so development is fair game."
+	No meaningful authorities call to claim the planets and resources in this unregulated sector, so development is fair game."
