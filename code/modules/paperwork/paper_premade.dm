@@ -138,7 +138,7 @@
 	- Last shift's Salvage Team"}
 
 /obj/item/paper/fluff/stations/skylineship/captainsorders
-	name = "Orders from CentComm"
+	name = "Orders from CentCom"
 	info = {"MISSION STATEMENT
 	<br>
 	Captain, you have been delegated some additional tasks alongside your peacekeeping mission.
