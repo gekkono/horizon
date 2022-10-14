@@ -163,14 +163,11 @@
 	uniform = /obj/item/clothing/under/rank/medical/doctor/blue
 	shoes = /obj/item/clothing/shoes/sneakers/white
 	l_hand = /obj/item/storage/firstaid/medical
-	suit_store = /obj/item/flashlight/pen
 
 	backpack = /obj/item/storage/backpack/medic
 	satchel = /obj/item/storage/backpack/satchel/med
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 	box = /obj/item/storage/box/survival/medical
-
-	chameleon_extras = /obj/item/gun/syringe
 
 	id_trim = /datum/id_trim/job/skyline/nurse
 
