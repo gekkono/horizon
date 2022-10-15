@@ -3,7 +3,7 @@
 // SKYLINE COMMAND //
 
 /datum/job/skyline/captain
-	title = "Ship Captain"
+	title = "CPC Ship Captain"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
 	head_announce = list(RADIO_CHANNEL_COMMAND)
 	department_head = list("CentCom")
@@ -36,7 +36,7 @@
 	return "Captain [captain.real_name] on deck!"
 
 /datum/job/skyline/first_mate
-	title = "First Mate"
+	title = "CPC First Mate"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	head_announce = list(RADIO_CHANNEL_COMMAND)
 	department_head = list("Captain")
@@ -385,7 +385,6 @@
 	outfit = /datum/outfit/job/skyline/roboticist
 	plasmaman_outfit = /datum/outfit/plasmaman/robotics
 	departments_list = list(
-		/datum/job_department/science,
 		/datum/job_department/medical,
 		)
 
@@ -826,7 +825,7 @@
 	supervisors = "the First Mate and the Captain"
 
 /datum/job/cook/skyline
-	title = "Ship Cook"
+	title = "Cook"
 	department_head = list("First Mate", "Bridge Officer", "Ship Captain")
 	faction = FACTION_SKYLINESHIP
 	total_positions = 2
@@ -870,12 +869,12 @@
 // SKYLINE SILICONS //
 
 /datum/job/ai/skyline
-	title = "Ship AI"
+	title = "CPC Ship AI"
 	faction = FACTION_SKYLINESHIP
 	supervisors = "the First Mate and the Captain"
 
 /datum/job/cyborg/skyline
-	title = "Ship Cyborg"
+	title = "CPC Ship Cyborg"
 	faction = FACTION_SKYLINESHIP
 	total_positions = 2
 	spawn_positions = 2
