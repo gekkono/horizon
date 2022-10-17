@@ -33,6 +33,7 @@
 /obj/structure/ore_box,
 /obj/item/storage/bag/ore,
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/shuttle/common/vista)
 "fJ" = (
@@ -52,13 +53,13 @@
 /area/shuttle/common/vista)
 "gF" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/storage/box/lights/tubes,
 /obj/structure/lattice/catwalk/plated,
 /obj/machinery/atmospherics/components/binary/pump{
 	name = "fuel pump";
 	color = "#FF7B00";
 	pipe_color = "#FF7B00"
 	},
+/obj/item/storage/box/lights/mixed,
 /turf/open/floor/plating,
 /area/shuttle/common/vista)
 "gO" = (
@@ -75,6 +76,8 @@
 /area/shuttle/common/vista/helm)
 "iU" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/shuttle/common/vista)
 "jG" = (
@@ -140,6 +143,10 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/shuttle/common/vista)
+"ml" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/common/vista)
 "nj" = (
 /obj/machinery/atmospherics/components/binary/pump/layer4{
 	name = "air supply pump";
@@ -157,8 +164,12 @@
 /area/shuttle/common/vista)
 "nS" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/shuttle/common/vista)
 "qy" = (
@@ -377,7 +388,6 @@
 /area/shuttle/common/vista)
 "Nd" = (
 /obj/structure/lattice/catwalk/plated,
-/obj/machinery/light/small/directional/north,
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
@@ -560,8 +570,8 @@ VH
 gF
 Je
 fJ
-iU
-iU
+ml
+ml
 wU
 HU
 "}
@@ -571,7 +581,7 @@ zX
 zX
 zX
 UO
-iU
+ml
 cV
 wU
 jL
@@ -582,9 +592,9 @@ ZS
 lQ
 xC
 vu
+iU
+iU
 nS
-nS
-wU
 zX
 "}
 (7,1,1) = {"
